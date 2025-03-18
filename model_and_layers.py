@@ -101,7 +101,6 @@ def hyperedge_clustering_coefficient(com_graph):
 
 
 class THTN(nn.Module):
-    # edge attention  version
     def __init__(self, input_dim, query_dim, vertex_dim, edge_dim, num_class, dropout,coms_G,LEN,centrality_values,uniqueness,eign_vec,e_feat,DICT,dict_hyperedge_clustering_coefficient,G):
         super(THTN, self).__init__()
 
